@@ -4,10 +4,9 @@
 
 ## Features
 
-- Easey to use.
-- Set the destination URL.
+- You can set a custom destination URL.
 - Option for 301 and 302 redirects.
-- Really fast redirection.
+- Easy to use.
 
 ## Usage
 
