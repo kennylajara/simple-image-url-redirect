@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  app:
+    build: .
+    environment:
+      - URL=http://example.com/ # Set destination URL
+      - PERMANENT=False # Change to True for 301 redirect
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./src:/var/www/html/
